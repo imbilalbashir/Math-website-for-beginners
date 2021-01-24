@@ -1,0 +1,142 @@
+.container{
+    width: 1050px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    
+}
+
+h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    float: left;
+    margin-top: 20px;
+}
+.searchbox{
+    float:right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+.header{
+    height: 100px;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+.text{
+    float: left;
+    widows: 150px;
+    padding: 5px;
+    background: white url(sr.png) right center no-repeat;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+}
+
+.menu ul li{
+    float: left;
+    
+    padding: 0px 10px;
+    
+}
+.menu ul li a:hover, .menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu ul li{
+    width: 1050 px;
+    height: 0px;
+    padding: 10px 40px;
+    border-right: 2px solid purple;
+}  
+    
+.menu{
+    width: 1050 px;
+    height: 70px;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    padding: 8px 0px;
+    margin-bottom: 10px;
+}
+.info{
+    background: linear-gradient(#E4F2B9, #B7E953);
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+ul{
+    list-style: none;   
+}
+
+.info h1{
+    color: purple  ;
+}
+.info p{
+    font-size: 22px;
+    color: purple;
+}
+.clear{
+    clear: both;   
+}
+.sidebar{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.sidebar h3{
+    color: #B314DB;
+    font-size: 30px;
+}
+.sidebar ul{
+    padding-top: 8px;   
+}
+#left ul li{
+    padding: 4px 0 4px 10px;
+    list-style-image: url(arrow.png);
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+#right ul li{
+    padding: 17px 0 17px 70px;
+    background: url(tick.png) no-repeat left center;
+}
+#left{
+    float: left;
+}
+#right{   
+    float:right;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 15px
+}
